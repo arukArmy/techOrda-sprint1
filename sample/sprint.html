@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprint Task1</title>
+    <style>
+
+        .navbar{
+            background-color: darkred;
+            display: flex;
+            padding: 20px;
+        }
+        .logo{
+            width: 40%;
+        }
+        .menu{
+            width: 60%;
+            text-align: right;
+        }
+        .logoButton{
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+            font-size: 20px;
+        }
+        .menuButton{
+            text-decoration: none;
+            margin-left: 10px;
+            color: snow;
+            font-family: Arial;
+            font-size: 18px;
+            font-weight: lighter;
+        }
+        .news{
+            background-color: #3f94b5;
+            display: flex;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .img-news{
+            width: 42%;
+        }
+        .img-news img{
+            width: 600px;
+            height: 390px;
+        }
+        .news p{
+            font-size: 24px;
+        }
+        .content-news{
+            width: 58%;
+        }
+        .latest{
+            text-align: center;
+        }
+        .cards{
+            display: flex;
+        }
+        .card{
+            width: 25%;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .card-image{
+        }
+        .image{
+            width: 100%;
+            border-right: 5px;
+        }
+        .card-content{
+            padding: 20px;
+        }
+        .cardButton{
+            color: white;
+            background-color: darkred;
+            text-align: center;
+            padding: 10px 30px 10px 30px;
+            border-radius: 5px;
+            border: 0px;
+        }
+        .card-title{
+            font-size: 20px;
+            font-weight: lighter;
+        }
+
+
+    </style>
+</head>
+<body style="margin-top: 0px">
+<div class="content">
+    <div class="navbar">
+        <div class="logo">
+            <a href="#" class="logoButton"><strong>BITLAB</strong> NEWS</a>
+        </div>
+        <div class="menu">
+            <a href="#" class="menuButton">Home</a>
+            <a href="#" class="menuButton">Sport</a>
+            <a href="#" class="menuButton">Science</a>
+            <a href="#" class="menuButton">Politics</a>
+            <a href="#" class="menuButton">Finance</a>
+        </div>
+    </div>
+    <div class="news">
+        <div class="img-news">
+            <img src="../conortokhabib.jpg" alt="Conor to Khabib">
+        </div>
+        <div class="content-news">
+            <h2>Khabib to Conor: "It is the same thing"</h2>
+            <p>
+                It's the same thing as the previous fight. If it's a first round finish, I'd back Conor.
+                From the second and further, then Dustin wins.
+                <br><br>
+                The Russian - who retired in March with a record of 29-0 with eight knockouts - has submission victories
+                over both McGregor and Poirier, so he knows a thing or two about their game plans and skill sets.
+                <br><br>
+                He memorably scored the Octagon at UFC 229 after defeating McGregor to attack his cornerman Dillon Danis,
+                who had reportedly shouted insults at Khabib following the fight. The Russian has turned to promoting following
+                his retirement and is mentoring fellow lightweight Islam Makhachev - currently ranked #9 in the UFC rankings.
+            </p>
+        </div>
+    </div>
+    <div class="latest-news">
+        <h2 class="latest">Latest news</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../eden2.webp" class="image">
+                </div>
+                <div class="card-content">
+                    <h2>Eden Hazard injury update</h2>
+                    <p class = "card-title">Real Madrid striker Eden Hazard
+                        injured again on last match with
+                        Sevilla FC.</p>
+                    <button class="cardButton">Read more</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../alvaro1.jfif" class="image">
+                </div>
+                <div class="card-content">
+                    <h2>Alvaro Morata scores to
+                        Torino</h2>
+                    <p class = "card-title">Alvaro Morata scored 2 goals against
+                        Torino on 27th round of Serie A</p>
+                    <button class="cardButton">Read more</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../canelo.jfif" class="image">
+                </div>
+                <div class="card-content">
+                    <h2>Canelo Alvarez rejected GGG
+                        rematch</h2>
+                    <p class = "card-title">Canelo Alvarez rejected Gennadiy
+                        Golovkin request to rematch again.</p>
+                    <button class="cardButton">Read more</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../max.webp" class="image">
+                </div>
+                <div class="card-content">
+                    <h2>Max Verstappen became a
+                        leader</h2>
+                    <p class = "card-title">Max Verstappen won the French
+                        Grand Prix at Paul Ricard circuit.</p>
+                    <button class="cardButton">Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
